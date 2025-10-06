@@ -21,7 +21,7 @@ export default function Nav(){
                     <div className="hover:text-red-700/100 hover:underline decoration-solid">
                         <NavLink to="/projects" className={({ isActive}) => isActive
                             ? "text-red-700 font-bold underline decoration-solid"
-                            : ""}>projects</NavLink>
+                            : ""}>Projects</NavLink>
                     </div>
 
                     <div className="hover:text-red-700/100 hover:underline decoration-solid">

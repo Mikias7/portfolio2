@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="relative max-w-3xl w-full rounded-xl overflow-hidden shadow-2xl border border-white/20">
         
         {/* Blurred gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-r from-red-700 to-white/50 backdrop-blur-lg saturate-200"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-red-700 to-white opacity-50 blur-lg saturate-200"></div>
 
         {/* Content */}
         <div className="relative z-10 p-10 text-center text-black">
