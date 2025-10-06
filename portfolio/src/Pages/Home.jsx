@@ -1,6 +1,10 @@
 
 export default function Home(){
 
+    const handleClick = () => {
+        window.location.href = "mailto:mikias7t@gmail.com?subject=Contact%20Request&body=Hello%2C%20I%20would%20like%20to%20get%20in%20touch.";
+    };
+
     return (
         <div className="pt-40 flex flex-col items-center justify-center">
 
@@ -21,7 +25,7 @@ export default function Home(){
             </div>
 
 
-           <div className="flex flex-col items-center text-center pt-8 space-y-6">
+  <div className="flex flex-col items-center text-center pt-8 space-y-6">
 
   {/* Heading */}
   <div>
@@ -52,9 +56,35 @@ export default function Home(){
     </ul>
 
   </div>
+
+  <div className="flex justify-center pt-4 px-20 gap-4">
+
+      <button
+          type="button"
+          className="flex justify-center pt-3 card-nav-cta-button hidden md:inline-flex w-40 h-12 border-0 rounded-[calc(0.75rem-0.2rem)] font-medium cursor-pointer transition-colors duration-300 ease-out hover:!bg-red-700"
+          style={{ backgroundColor: "#5e0404ff", color: "#fff" }}
+          onClick={handleClick}
+      >
+        Contact
+      </button>
+      <button
+          type="button"
+          className="flex justify-center pt-3 card-nav-cta-button hidden md:inline-flex w-40 h-12 border-0 rounded-[calc(0.75rem-0.2rem)] font-medium cursor-pointer transition-colors duration-300 ease-out hover:!bg-red-700"
+          style={{ backgroundColor: "#000000ff", color: "#fff" }}
+          onClick={() => {
+          const link = document.createElement("a");
+          link.href = "./public/MikiasResume.pdf"; 
+          link.download = "mikias_resume.pdf"; 
+          link.click();
+          }}
+      >
+          Download CV
+      </button>
+    </div>
+
+  </div>
+
+
 </div>
-
-
-        </div>
     );
 }
