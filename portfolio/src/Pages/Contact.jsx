@@ -17,7 +17,7 @@ export default function Contact() {
 
           {/* Description */}
           <p className="font-serif text-lg mb-6">
-            Let’s talk! Got an idea or just bored? I answer emails faster than I fix bugs.
+            {/* Let’s talk! Got an idea or just bored? I answer emails faster than I fix bugs. */}
           </p>
 
           {/* Contact form */}

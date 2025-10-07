@@ -34,6 +34,7 @@ export default function Experience() {
           <div className="flex flex-wrap gap-2 mt-2">
             <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Python</span>
             <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Pytorch</span>
+            <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">React.tsx</span>
             <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Computer Vision</span>
           </div>
 
@@ -72,8 +73,9 @@ export default function Experience() {
 
           {/* Skills */}
           <div className="flex flex-wrap gap-2 mt-2">
-            <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Skill 1</span>
-            <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Skill 2</span>
+            <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Robotics</span>
+            <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Python</span>
+            <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">Computer Vision</span>
           </div>
 
           {/* Button

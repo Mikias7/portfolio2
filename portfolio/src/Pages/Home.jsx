@@ -17,9 +17,9 @@ export default function Home(){
                 <div className="absolute inset-0 bg-gradient-to-r from-red-700 to-white opacity-50 blur-lg saturate-200"></div>
 
                 {/* Text content stays sharp */}
-                <div className="relative text-lg text-black p-6 font-serif">
-                    <p>a student who gets a kick out of turning ideas into working software. From simulation programs to AI</p>
-                    <p>experiments and full-stack projects, I love tackling challenges that make me think—and occasionally break</p>
+                <div className="relative text-lg text-black p-6 font-serif text-center">
+                    <p>a student who gets a kick out of turning ideas into working software. From full-stack projects to AI</p>
+                    <p>experiments and simulation programs, I love tackling challenges that make me think—and occasionally break</p>
                     <p>things—until they actually work. Learning fast, adapting faster, and having fun along the way is my style.</p>
                 </div>
             </div>
@@ -30,7 +30,8 @@ export default function Home(){
   {/* Heading */}
   <div>
     <p className="font-serif text-2xl text-red-700 drop-shadow-lg">
-      These are my go-to superpowers (no cape required):
+      {/* These are my go-to superpowers (no cape required): */}
+      Core competencies:
     </p>
   </div>
 
@@ -51,8 +52,8 @@ export default function Home(){
 
     <ul className="space-y-2">
       <li className="hover:text-red-500 transition-colors duration-200">Javascript</li>
-      <li className="hover:text-red-500 transition-colors duration-200">Blender</li>
-      <li className="hover:text-red-500 transition-colors duration-200">CAD</li>
+      <li className="hover:text-red-500 transition-colors duration-200">Robotics</li>
+      <li className="hover:text-red-500 transition-colors duration-200">MySQL</li>
     </ul>
 
   </div>
